@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100wh;
+    width: 100vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, #231807, #846F54, #231807);
+
+}
+
+.calculator {
+
+    justify-content: center;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(35, 24, 7);
+
+
+}
+
+.s {
+    height: 60px;
+    width: 91px;
+    background-color: rgb(132, 111, 84);
+    color: black;
+    border-radius: 20%;
+    border-color: rgb(56, 46, 14);
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+
+
+}
+
+.s:hover {
+    height: 60px;
+    width: 91px;
+    background-color: rgb(35, 24, 7);
+    color: rgb(255, 250, 250);
+    border-radius: 20%;
+    border-color: black;
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+
+.num {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(132, 111, 84);
+    ;
+    color: black;
+    border-radius: 50%;
+    border-color: rgb(56, 46, 14);
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+
+
+
+
+
+}
+
+.num:hover {
+    height: 60px;
+    width: 60px;
+    background-color: rgb(35, 24, 7);
+    color: rgb(255, 250, 250);
+    border-radius: 50%;
+    border-color: black;
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+#display {
+    width: 235px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(35, 24, 7);
+    letter-spacing: 10px 10px;
+
+
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(83, 54, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.title:hover {
+    color: rgb(35, 24, 7);
+
+}
+
+.c {
+    height: 40px;
+    width: 235px;
+    background-color: rgb(132, 111, 84);
+    ;
+    color: black;
+    border-radius: 5px;
+    border-color: rgb(56, 46, 14);
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+
+}
+
+.c:hover {
+    height: 40px;
+    width: 235px;
+    background-color: rgb(35, 24, 7);
+    color: rgb(255, 250, 250);
+    border-radius: 5px;
+    border-color: black;
+    font-size: x-large;
+    grid-row: span 2;
+    grid-column: span 2;
+}
