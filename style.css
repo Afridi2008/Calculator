@@ -3,7 +3,7 @@ body {
 
     justify-content: left;
     height: 300wh;
-    width: 100vw;
+    width: 360vw;
     position: fixed;
     background: #222222;
 
@@ -235,3 +235,4 @@ footer {
     grid-column: span 2;
 
 }
+
