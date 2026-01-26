@@ -2,8 +2,8 @@ body {
     margin: 0px;
 
     justify-content: left;
-    height: 300wh;
-    width: 360vw;
+    height: 667px;
+    width: 375px;
     position: fixed;
     background: #222222;
 
@@ -235,4 +235,5 @@ footer {
     grid-column: span 2;
 
 }
+
 
